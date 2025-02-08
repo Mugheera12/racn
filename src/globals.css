@@ -1,0 +1,157 @@
+.black{
+    background: #121212;
+}
+body{
+    overflow-x: hidden;
+}
+.bg-grey{
+    background: #262626 !important;
+}
+.bg-orange{
+    background: #FCB116 !important;
+}
+.text-orange{
+    color: #FCB116 !important;
+}
+.border-yellow{
+    border-color: #FCB116 !important;
+}
+.bg-red{
+    background: red !important;
+}
+.cl-brown{
+    color: #AF1F24 !important;
+}
+.height-full{
+    height: 100% !important;
+}
+.transform-nx-100{
+    transform: translateX(-100%) !important;
+}
+.transform-px-100{
+    transform: translateX(100%) !important;
+}
+.transform-py-100{
+    transform: translateY(100%) !important;
+}.transform-ny-100{
+    transform: translateY(-100%) !important;
+}
+.transition-slow{
+    transition: all 0.7s !important;
+}
+.transition-md{
+    transition: all 0.4s !important;
+}
+.transition-fast{
+    transition: all 0.2s !important;
+}
+.opacity-0{
+    opacity: 0 !important;
+}
+.opacity-1{
+    opacity: 1 !important;
+}
+.spacer {
+    margin-top: 121px; /* Adjust based on the height of the nav + announcement bar */
+}
+.height-thori{
+    height: 78px !important;
+}
+.font-medium{
+    font-size: 1.4rem;
+}
+.text-yellow{
+    color: yellow;
+}
+.h-f-hr{
+    height: 80px;
+    width: 3px;
+    margin: 0px;
+    flex-shrink: 0;
+    align-self: stretch;
+    background-color: red;;
+    border-color: rgba(255, 255, 255, 0.12);
+    border-width: 0px thin 0px 0px;;
+    border-style: solid;
+}
+.Link a::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #FCB116;
+    transition: all 0.3s ease;
+}
+.Link a:hover::after{
+    width: 70%;
+}
+.Link a{
+    position: relative;
+    text-decoration: none;
+    padding-bottom: 0.75rem;
+    color: white;
+}
+.log-bg-img{
+    background-image: url(https://rancherscafe.com/_next/static/media/signin_pic.13b93085.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    height: 100vh;
+}
+.log-right-bg-img{
+    background-image: url(https://rancherscafe.com/_next/static/media/rightSectionImage.8478f241.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.log::placeholder {
+    color: white !important;
+    opacity: 1 !important;
+}
+.hov-brown{
+    transition: all 0.3s;
+}
+.hov-brown:hover{
+    background: brown !important;
+    color: white !important;
+}
+.signup-container {
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    overflow: hidden; /* Prevent unwanted scrolling */
+}  
+/* .right-section {
+    height: 100vh; 
+    overflow-y: auto; 
+    padding-bottom: 20px;
+    background-image: url(https://rancherscafe.com/_next/static/media/rightSectionImage.8478f241.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.f-hover{
+    transition: all 0.3s;
+}
+.f-hover:hover{
+    color: #FCB116 !important;
+}
+.cl-brown{
+    transition: all 0.3;
+}
+.cl-brown:hover{
+    color: white !important;
+}
+.brha{
+    height: 16rem;
+}
+.scrollable-section {
+    height: 100vh; /* Full height */
+    overflow-y: auto; /* Enable scrolling */
+    /* padding-bottom: 20px; */
+  }
+  .widthkam{
+    width: 83% ;
+    text-align: right;
+  }
+ 
+  
