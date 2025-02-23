@@ -1,0 +1,261 @@
+.black {
+  background: #121212;
+}
+body {
+  overflow-x: hidden;
+  background: grey !important;
+}
+.bg-grey {
+  background: #262626 !important;
+}
+.bg-orange {
+  background: #fcb116 !important;
+}
+.text-orange {
+  color: #fcb116 !important;
+}
+.border-yellow {
+  border-color: #fcb116 !important;
+}
+.bg-red {
+  background: red !important;
+}
+.bg-purple {
+  background: #8c57ff !important;
+}
+.text-md {
+  font-size: 10px !important;
+}
+.text-sm {
+  font-size: 9px !important;
+}
+.cl-brown {
+  color: #af1f24 !important;
+}
+.text-dark {
+  color: #121212 !important;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.height-full {
+  height: 100% !important;
+}
+.transform-nx-100 {
+  transform: translateX(-100%) !important;
+}
+.transform-px-100 {
+  transform: translateX(100%) !important;
+}
+.transform-py-100 {
+  transform: translateY(100%) !important;
+}
+.transform-ny-100 {
+  transform: translateY(-100%) !important;
+}
+.transition-slow {
+  transition: all 0.7s !important;
+}
+.transition-md {
+  transition: all 0.4s !important;
+}
+.transition-fast {
+  transition: all 0.2s !important;
+}
+.opacity-0 {
+  opacity: 0 !important;
+}
+.opacity-1 {
+  opacity: 1 !important;
+}
+.spacer {
+  margin-top: 121px; /* Adjust based on the height of the nav + announcement bar */
+}
+.height-thori {
+  height: 78px !important;
+}
+.font-medium {
+  font-size: 1.4rem;
+}
+.text-yellow {
+  color: yellow;
+}
+.h-f-hr {
+  height: 80px;
+  width: 3px;
+  margin: 0px;
+  flex-shrink: 0;
+  align-self: stretch;
+  background-color: red;
+  border-color: rgba(255, 255, 255, 0.12);
+  border-width: 0px thin 0px 0px;
+  border-style: solid;
+}
+.Link a::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #fcb116;
+  transition: all 0.3s ease;
+}
+.Link a:hover::after {
+  width: 70%;
+}
+.Link a {
+  position: relative;
+  text-decoration: none;
+  padding-bottom: 0.75rem;
+  color: white;
+}
+.log-bg-img {
+  background-image: url(https://rancherscafe.com/_next/static/media/signin_pic.13b93085.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  height: 100vh;
+}
+.log-right-bg-img {
+  background-image: url(https://rancherscafe.com/_next/static/media/rightSectionImage.8478f241.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.log::placeholder {
+  color: white !important;
+  opacity: 1 !important;
+}
+.hov-brown {
+  transition: all 0.3s;
+}
+.hov-brown:hover {
+  background: brown !important;
+  color: white !important;
+}
+.signup-container {
+  height: 100vh; /* Full height of the viewport */
+  display: flex;
+  overflow: hidden; /* Prevent unwanted scrolling */
+}
+/* .right-section {
+    height: 100vh; 
+    overflow-y: auto; 
+    padding-bottom: 20px;
+    background-image: url(https://rancherscafe.com/_next/static/media/rightSectionImage.8478f241.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.f-hover {
+  transition: all 0.3s;
+}
+.f-hover:hover {
+  color: #fcb116 !important;
+}
+.cl-brown {
+  transition: all 0.3;
+}
+.cl-brown:hover {
+  color: white !important;
+}
+.brha {
+  height: 16rem;
+}
+.scrollable-section {
+  height: 100vh; /* Full height */
+  overflow-y: auto; /* Enable scrolling */
+  /* padding-bottom: 20px; */
+}
+.widthkam {
+  width: 83%;
+  text-align: right;
+}
+
+.cart-container {
+  background-color: #111;
+  color: #ff9800;
+  padding: 25px;
+  border-radius: 10px;
+  width: auto;
+  margin: auto;
+  text-align: left;
+
+  /* margin-top: 12rem; */
+}
+.cart-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  background: #222;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.cart-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.cart-details {
+  flex: 1;
+}
+
+.cart-product-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.cart-size,
+.cart-price,
+.cart-qty {
+  font-size: 1rem;
+  color: white;
+  margin: 5px 0;
+}
+
+.cart-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.qty-btn {
+  background: #ff9800;
+  border: none;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.qty-number {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.trash-icon {
+  color: #ff9800;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.checkout-btn {
+  background: #ff9800;
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  width: 50%;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  display: block;
+  margin: 10px auto;
+}
